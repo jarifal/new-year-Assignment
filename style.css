@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 
 
@@ -6,25 +7,23 @@
 * {
     margin: 0;
     padding: 0;
-    color: aliceblue;
     font-family: 'Merriweather', serif;
 }
 
 /* banner related CSS */
 .main {
     margin: 50px 140px 120px 140px;
-    
 }
 
 .banner {
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("image/Banner\ Image.png");
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("image/Banner\ Image.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     max-width: 1320px;
+    color: aliceblue;
     height: 600px;
     border-radius: 16px;
-    
-
+    margin-bottom: 120px;
 }
 
 .banner-content {
@@ -45,4 +44,91 @@
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
+}
+
+/* off section related */
+
+.off-section {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.off-title {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.off-p {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.off-heading {
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.off-content {
+    margin-bottom: 50px;
+}
+
+.off-image {
+    width: 802.9px;
+    height: 500px;
+}
+
+/* welcome related CSS */
+.welcome-section {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("image/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: 1320px;
+    height: 600px
+}
+
+.welcome-content {
+    padding-left: 60px;
+    padding-top: 130px;
+}
+
+.welcome-title {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    max-width: 642px;
+    margin-bottom: 30px;
+}
+
+.welcome-p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 697px;
+    margin-bottom: 50px;
+}
+
+.join-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background: none;
+    border: none;
 }
