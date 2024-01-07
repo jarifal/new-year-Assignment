@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+
+
+
+/* common related CSS */
+* {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-family: 'Merriweather', serif;
+}
+
+/* banner related CSS */
+.main {
+    margin: 50px 140px 120px 140px;
+    
+}
+
+.banner {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("image/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    
+
+}
+
+.banner-content {
+    padding-top: 193px;
+}
+
+.banner-greeting {
+    color: #FFF;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.new-year-greeting {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
