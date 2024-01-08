@@ -277,6 +277,16 @@
 
 /* holidays-section */
 
+.holiday-section {
+    background-image: url("image/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 30%;
+}
+/* .holiday-main {
+    align-items: center;
+} */
+
 .holidays-content {
     text-align: center;
     align-items: center;
@@ -313,28 +323,25 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 10%;
+    padding-left: 5%;
     margin-top: 90px;
-    position: absolute;
-}
-
-.group-pic {
-    position: relative;
 }
 
 .gift-box {
-    width: 500px;
-    height: 500px;
-    margin-left: -48px;
-    /* padding-top: 100px; */
+	width: 500px;
+	height: 500px;
+    margin-left: -30px;
+    margin-top: 54px;
+	/* padding-top: 100px; */
 }
 
 .discount-pic {
     width: 200px;
     height: 200px;
-    margin-left: -100px;
+    margin-left: 200px;
     margin-bottom: 170px;
     position: absolute;
-    right: 280px;
 }
 
 .ladies-pic {
@@ -344,15 +351,7 @@
     background-size: 100% 100%;
     width: 381px;
     height: 350px;
-    margin-left: 151px;
-    margin-bottom: 148px;
+    margin-left: 101px;
+    margin-bottom: 204px;
     border-radius: 16px 16px 0px 0px;
 }
-
-.red-pic {
-    background-image: url("image/Rectangle\ 2.png");
-    background-repeat: no-repeat;
-    height: 229px;
-    position: relative;
-    z-index: -1;
-    top: 441px;
