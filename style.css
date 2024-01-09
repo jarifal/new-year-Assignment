@@ -11,6 +11,10 @@
     font-family: 'Inter', sans-serif;
 }
 
+body {
+    width: 100vw;
+}
+
 /* banner related CSS */
 .main {
     margin: 50px 140px 120px 140px;
@@ -20,7 +24,7 @@
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("image/Banner\ Image.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    /* max-width: 1320px; */
+    /* max-width: 100; */
     color: aliceblue;
     height: 600px;
     border-radius: 16px;
@@ -52,6 +56,7 @@
 .off-section {
     text-align: center;
     margin-bottom: 120px;
+    /* max-width: 100%px; */
 }
 
 .off-title {
@@ -94,7 +99,7 @@
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("image/Vectorrr.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    /* max-width: 1320px; */
+    /* max-width: 100%; */
     height: 600px;
     display: flex;
     justify-content: space-between;
@@ -152,7 +157,7 @@
 /* text section related CSS */
 
 .text-section {
-    /* width: 1320px; */
+    /* max-width: 100%; */
     /* height: 482px; */
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     text-align: center;
@@ -202,6 +207,7 @@
 .section-2024 {
     align-items: center;
     margin-bottom: 120px;
+    /* max-width: 100%; */
 }
 
 .coming-item {
@@ -278,11 +284,14 @@
 /* holidays-section */
 
 .holiday-section {
+    /* max-width: 100%; */
     background-image: url("image/Rectangle\ 2.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100% 30%;
+    margin-bottom: 120px;
 }
+
 /* .holiday-main {
     align-items: center;
 } */
@@ -329,11 +338,11 @@
 }
 
 .gift-box {
-	width: 500px;
-	height: 500px;
+    width: 500px;
+    height: 500px;
     margin-left: -30px;
     margin-top: 54px;
-	/* padding-top: 100px; */
+    /* padding-top: 100px; */
 }
 
 .discount-pic {
@@ -352,6 +361,182 @@
     width: 381px;
     height: 350px;
     margin-left: 101px;
-    margin-bottom: 204px;
+    margin-bottom: 202px;
     border-radius: 16px 16px 0px 0px;
+}
+
+/* portfolio-section related CSS */
+
+.portfolio-section {
+    margin-bottom: 120px;
+}
+
+.portfolio-title {
+    color: #F00;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.portfolio-heading {
+    color: #070211;
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.portfolio-p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+
+.portfolio-pic img {
+    border-radius: 16px;
+    width: 324px;
+    height: 350px;
+    transition: 0.5s ease;
+}
+
+.portfolio-pic img:hover {
+    border-radius: 16px;
+    width: 254px;
+    height: 280px;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.4);
+
+}
+
+.row-1-pic {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.row-2-pic {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* subscribe-section related CSS */
+
+.subscribe-page {
+    text-align: center;
+    align-items: center;
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+.subscrib-img {
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.subscrib-heading {
+    color: #070211;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.subscrib-p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+
+#email {
+    border-radius: 50px 0px 0px 50px;
+    width: 250px;
+    padding: 15px;
+    border: none;
+    background: #FFF;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.subscribe-button {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    padding: 11px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    cursor: pointer;
+}
+
+.input-group {
+    align-items: center;
+    padding-right: 135px
+}
+
+/* footer-section related CSS */
+
+.footer-section {
+    background-color: #070211;
+    color: #FFF;
+}
+
+.footer-uper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-left {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 120px;
+}
+
+.footer-right {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 120px;
+}
+
+.fst-hr {
+    height: 1px;
+    margin: 50px 140px 50px 140px;
+}
+
+.footer-icon {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 500px;
+	margin-right: 500px;
+}
+.number {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.footer-lower {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 120px;
 }
