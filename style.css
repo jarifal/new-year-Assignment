@@ -506,7 +506,7 @@ body {
 }
 
 .fst-hr {
-    height: 1px;
+    /* height: 1px; */
     margin: 50px 140px 50px 140px;
 }
 
