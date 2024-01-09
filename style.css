@@ -444,6 +444,8 @@ body {
     font-weight: 400;
     line-height: 32px;
     margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 #email {
